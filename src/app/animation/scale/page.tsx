@@ -1,3 +1,9 @@
+import ScaleWidget from '@/widgets/scaleWidget/ScaleWdiget';
+
 export default function ScalePage() {
-    return <div>ScalePage</div>;
+    return (
+        <div>
+            <ScaleWidget />
+        </div>
+    );
 }

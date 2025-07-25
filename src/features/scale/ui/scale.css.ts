@@ -17,7 +17,9 @@ export const box = style({
     alignItems: 'center',
     fontSize: '1.5rem',
     transition: 'transform 0.3s ease-in-out',
-    ':hover': {
-        transform: 'scale(1.2)',
+    selectors: {
+        '&:hover': {
+            transform: 'scale(1.2)',
+        },
     },
 });
