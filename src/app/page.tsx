@@ -6,9 +6,9 @@ export default function Home() {
     return (
         <div className={styles.page}>
             <main className={styles.main}>
-                <Link href={'/style/scale'}>scale</Link>
-                <Link href={'/style/fade'}>fade</Link>
-                <Link href={'/style/transition'}>transition</Link>
+                <Link href={'/animation/scale'}>scale</Link>
+                <Link href={'/animation/fade'}>fade</Link>
+                <Link href={'/animation/transition'}>transition</Link>
             </main>
         </div>
     );
