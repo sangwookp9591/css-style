@@ -1,4 +1,4 @@
-import * as styles from './scale.css';
+import * as styles from './Scale.css';
 
 export default function Scale() {
     return (
