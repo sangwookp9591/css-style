@@ -1,3 +1,9 @@
+import TransitionWidget from '@/widgets/transitionWidget/TransitionWidget';
+
 export default function TransitionPage() {
-    return <div>TransitionPage</div>;
+    return (
+        <div>
+            <TransitionWidget />
+        </div>
+    );
 }
