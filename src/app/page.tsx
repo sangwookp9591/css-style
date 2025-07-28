@@ -9,6 +9,7 @@ export default function Home() {
                 <Link href={'/animation/scale'}>scale</Link>
                 <Link href={'/animation/fade'}>fade</Link>
                 <Link href={'/animation/transition'}>transition</Link>
+                <Link href={'/animation/skeleton'}>transition</Link>
             </main>
         </div>
     );
