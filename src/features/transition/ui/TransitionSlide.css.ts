@@ -1,15 +1,29 @@
 import { style } from '@vanilla-extract/css';
 
+export const container = style({
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '20px',
+    alignItems: 'center',
+    justifyContent: 'center',
+});
+
 export const commonSlide = style({
-    height: '200px',
-    width: '50px',
-    background: 'black',
-    transition: 'tranform 0.4s ease, opacity 0.4s ease',
+    width: '200px',
+    height: '100px',
+    background: 'purple',
+    color: 'white',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    fontSize: '1.2rem',
+    transition: 'transform 0.5s ease-in-out, opacity 0.5s ease-in-out',
+    position: 'relative', // 필요 시
 });
 
 export const slideIn = style([
     {
-        transform: 'translateY(0)',
+        transform: 'translateX(0)',
         opacity: 1,
     },
     commonSlide,
@@ -17,7 +31,7 @@ export const slideIn = style([
 
 export const slideOut = style([
     {
-        transform: 'translateY(-20px)',
+        transform: 'translateX(-100%)',
         opacity: 0,
     },
     commonSlide,
