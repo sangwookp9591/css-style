@@ -10,7 +10,7 @@ export default function TransitionSlide() {
         setIsOpen((prev) => !prev);
     };
     return (
-        <div>
+        <div className={styles.container}>
             <button onClick={handleChange}>Toggle slide</button>
             <div className={isOpen ? styles.slideIn : styles.slideOut}></div>
         </div>
