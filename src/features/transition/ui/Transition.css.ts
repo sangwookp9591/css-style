@@ -18,7 +18,7 @@ const baseBox = {
     alignItems: 'center',
     fontSize: '1.2rem',
     transition: 'height 0.5s ease',
-    overflow: 'hidden',
+    overflow: 'hidden', //글자 삐져나오는거 방지
 };
 
 export const expand = style([

@@ -9,7 +9,10 @@ export default function Transition() {
     return (
         <div className={styles.container}>
             <button onClick={() => setExpanded(!expanded)}>Toggle Height</button>
-            <div className={expanded ? styles.expand : styles.collapse}>Transition Box</div>
+            <div className={expanded ? styles.expand : styles.collapse}>
+                Transition Box Transition BoxTransition BoxTransition BoxTransition BoxTransition BoxTransition
+                BoxTransition BoxTransition Boxs
+            </div>
         </div>
     );
 }
