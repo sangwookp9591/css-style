@@ -12,7 +12,17 @@ export default function PageEnterExit() {
     return (
         <div>
             <button onClick={handleChange}>Enter Exit</button>
-            <div className={isEnter ? styles.pageEnter : styles.pageExit}>페이지나 모달 같은 컴포넌트</div>
+            <div
+                className={isEnter ? styles.pageEnter : styles.pageExit}
+                style={{
+                    width: 500,
+                    height: 100,
+                    background: 'black',
+                    color: 'white',
+                }}
+            >
+                페이지나 모달 같은 컴포넌트
+            </div>
         </div>
     );
 }
