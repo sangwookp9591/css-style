@@ -6,7 +6,6 @@ export const container = style({
     gap: '20px',
     alignItems: 'center',
     justifyContent: 'center',
-    height: '100vh',
 });
 
 const baseBox = {
