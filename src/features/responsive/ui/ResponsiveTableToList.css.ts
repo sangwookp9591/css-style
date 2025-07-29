@@ -29,7 +29,7 @@ export const cell = style({
 
     selectors: {
         '&::before': {
-            content: 'attr(data-label) ": "',
+            content: 'attr(data-label) ": "', //데이터 라벨을 가져옴
             fontWeight: 'bold',
             display: 'none',
         },
@@ -45,3 +45,23 @@ export const cell = style({
         },
     },
 });
+
+/**
+ * 예시:
+css
+복사
+편집
+.title::before {
+  content: '🔥';
+}
+html
+복사
+편집
+<h1 class="title">공지사항</h1>
+👉 실제로는 이렇게 보입니다:
+
+복사
+편집
+🔥 공지사항
+📌 ::before는 요소의 맨 앞에 삽입되는 가상 요소입니다.
+ */
