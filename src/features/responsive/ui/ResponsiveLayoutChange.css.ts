@@ -26,6 +26,7 @@ export const textBlock = style({
     },
 });
 
+//flex 일때 보여지는 순서 order
 export const imageBlock = style({
     flex: 1,
     order: 2,
