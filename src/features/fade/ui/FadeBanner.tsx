@@ -3,6 +3,7 @@
 
 import { useEffect, useState } from 'react';
 import * as styles from './FadeBanner.css';
+
 export default function Banner() {
     const [isVisible, setIsVisible] = useState(true);
 
