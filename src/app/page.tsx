@@ -10,6 +10,7 @@ export default function Home() {
                 <Link href={'/animation/fade'}>fade</Link>
                 <Link href={'/animation/transition'}>transition</Link>
                 <Link href={'/animation/skeleton'}>transition</Link>
+                <Link href={'/responsive/grid'}>responsive grid</Link>
             </main>
         </div>
     );
