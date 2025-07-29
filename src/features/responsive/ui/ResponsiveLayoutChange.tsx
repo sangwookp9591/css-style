@@ -1,6 +1,6 @@
 import * as styles from './ResponsiveLayoutChange.css';
 
-export default function ResponsiveMenu() {
+export default function ResponsiveLayoutChange() {
     return (
         <div>
             {/*  레이아웃 위치 순서 바꾸기 */}
