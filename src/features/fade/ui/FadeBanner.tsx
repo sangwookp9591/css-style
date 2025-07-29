@@ -9,7 +9,7 @@ export default function Banner() {
     useEffect(() => {
         const timer = setTimeout(() => {
             setIsVisible(false);
-        }, 3000); // 5초 후 사라지게
+        }, 4000); // 5초 후 사라지게
 
         return () => clearTimeout(timer);
     }, []);
