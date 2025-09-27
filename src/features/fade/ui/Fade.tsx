@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import * as styles from './Fade.css';
-//fade
+//fade sss
 export default function Fade() {
     const [visible, setVisible] = useState(true);
 
